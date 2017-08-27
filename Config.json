@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "min": 2412.500,
+      "max": 12087.500,
+      "accumulationFund": {
+        "rate": 0.120,
+        "maxValue": 2076.000,
+        "minValue": 176.000
+      },
+      "socialSecurity": {
+        "pensionBenefits": 0.080,
+        "medicalInsurance": 0.020,
+        "unemploymentInsurance": 0.005,
+        "businessInsurance": 0.000,
+        "maternityInsurance": 0.000
+      }
+    }
+  ],
+  "tax": [
+    {
+      "min": 0,
+      "max": 1500.000,
+      "rate": 0.030,
+      "sum": 0.000
+    },
+    {
+      "min": 1500.000,
+      "max": 4500.000,
+      "rate": 0.100,
+      "sum": 105.000
+    },
+    {
+      "min": 4500.000,
+      "max": 9000.000,
+      "rate": 0.200,
+      "sum": 555.000
+    },
+    {
+      "min": 9000.000,
+      "max": 35000.000,
+      "rate": 0.250,
+      "sum": 1005.000
+    },
+    {
+      "min": 35000.000,
+      "max": 55000.000,
+      "rate": 0.300,
+      "sum": 2755.000
+    },
+    {
+      "min": 55000.000,
+      "max": 80000.000,
+      "rate": 0.350,
+      "sum": 5505.000
+    },
+    {
+      "min": 80000.000,
+      "max": 800000000.000,
+      "rate": 0.450,
+      "sum": 13505.000
+    }
+  ]
+}
